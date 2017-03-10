@@ -51,6 +51,6 @@
         "vscode": "^1.0.0"
     },
     "dependencies": {
-        "typescript-format-imports": "^0.1.0"
+        "typescript-format-imports": "^0.1.1"
     }
 }

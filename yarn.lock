@@ -1828,9 +1828,9 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
 
-typescript-format-imports@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/typescript-format-imports/-/typescript-format-imports-0.1.0.tgz#d73d06c7523175b3543c9505fbb37a2dc12d7eea"
+typescript-format-imports@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/typescript-format-imports/-/typescript-format-imports-0.1.1.tgz#df11f4900c569396918a58a97d463401d51ba6d6"
   dependencies:
     "@types/lodash-es" "^4.14.4"
     lodash-es "^4.17.4"
