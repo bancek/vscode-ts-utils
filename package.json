@@ -2,7 +2,7 @@
     "name": "ts-utils",
     "displayName": "TS utils",
     "description": "TypeScript utils.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "lukazakrajsek",
     "repository": {
         "type": "git",
@@ -51,7 +51,6 @@
         "vscode": "^1.0.0"
     },
     "dependencies": {
-        "@types/lodash": "^4.14.54",
-        "lodash": "^4.17.4"
+        "typescript-format-imports": "^0.1.0"
     }
 }

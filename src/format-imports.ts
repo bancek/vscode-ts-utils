@@ -1,8 +1,7 @@
 'use strict';
 
 import * as vscode from 'vscode';
-
-import { formatImportsLines } from './format-imports-lines';
+import * as tsFormatImports from 'typescript-format-imports';
 
 export function formatImports() {
     const editor = vscode.window.activeTextEditor;
@@ -13,7 +12,7 @@ export function formatImports() {
         originalLines.push(editor.document.lineAt(i).text);
     }
 
-    const lines = formatImportsLines(originalLines);
+    const lines = tsFormatImports.formatImports(originalLines);
 
     const wholeDocument = new vscode.Range(
         editor.document.lineAt(0).range.start,
