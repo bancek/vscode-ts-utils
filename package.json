@@ -2,7 +2,7 @@
     "name": "ts-utils",
     "displayName": "TS utils",
     "description": "TypeScript utils.",
-    "version": "0.1.1",
+    "version": "0.1.3",
     "publisher": "lukazakrajsek",
     "repository": {
         "type": "git",
@@ -51,6 +51,6 @@
         "vscode": "^1.0.0"
     },
     "dependencies": {
-        "typescript-format-imports": "^0.1.1"
+        "typescript-format-imports": "^0.1.2"
     }
 }
