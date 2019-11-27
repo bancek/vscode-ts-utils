@@ -21,3 +21,21 @@ import * as b from '../b';
 import { bar } from './a';
 import { foo } from './b';
 ```
+
+## Install
+
+```sh
+npm install -g vsce
+yarn
+vsce package
+```
+
+Install VSIX from VS Code:
+
+```
+>Extensions: Install from VSIX...
+```
+
+```
+vscode-ts-utils/ts-utils-0.1.5.vsix
+```
