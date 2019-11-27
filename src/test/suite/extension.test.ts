@@ -5,7 +5,7 @@ import * as assert from 'assert';
 
 import * as vscode from 'vscode';
 
-import { formatImports } from '../src/format-imports';
+import { formatImports } from '../../format-imports';
 
 interface Case {
     input: string;
