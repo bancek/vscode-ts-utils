@@ -35,7 +35,7 @@
 	},
 	"dependencies": {
 		"read-pkg-up": "^7.0.0",
-		"typescript-format-imports": "^0.1.4"
+		"typescript-format-imports": "^0.1.6"
 	},
 	"devDependencies": {
 		"@types/glob": "^7.1.1",
