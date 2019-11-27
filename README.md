@@ -37,5 +37,5 @@ Install VSIX from VS Code:
 ```
 
 ```
-vscode-ts-utils/ts-utils-0.1.5.vsix
+vscode-ts-utils/ts-utils-0.1.6.vsix
 ```

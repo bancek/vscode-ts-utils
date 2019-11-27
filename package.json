@@ -2,7 +2,18 @@
 	"name": "ts-utils",
 	"displayName": "TS utils",
 	"description": "TypeScript utils.",
-	"version": "0.1.5",
+	"version": "0.1.6",
+	"publisher": "lukazakrajsek",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bancek/vscode-ts-utils"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://raw.githubusercontent.com/bancek/vscode-ts-utils/master/LICENSE.md"
+		}
+	],
 	"engines": {
 		"vscode": "^1.40.0"
 	},
