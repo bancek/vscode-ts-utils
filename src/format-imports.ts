@@ -14,13 +14,18 @@ export function formatImports() {
     const options: tsFormatImports.FormatImportsOptions = {};
 
     if (
-      result != null &&
-      result.pkg != null &&
-      result.pkg.tsFormatImports != null &&
-      result.pkg.tsFormatImports.internalModules != null &&
-      result.pkg.tsFormatImports.internalModules.length > 0
+      result != null
     ) {
-      options.internalModules = new Set<string>(result.pkg.tsFormatImports.internalModules);
+      const pkg = result.pkg || result.package || result.packageJson;
+
+      if (
+        pkg != null &&
+        pkg.tsFormatImports != null &&
+        pkg.tsFormatImports.internalModules != null &&
+        pkg.tsFormatImports.internalModules.length > 0
+      ) {
+        options.internalModules = new Set<string>(pkg.tsFormatImports.internalModules);
+      }
     }
 
     const originalLines: string[] = [];
