@@ -857,10 +857,10 @@ type-fest@^0.8.1:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.8.1.tgz#09e249ebde851d3b1e48d27c105444667f17b83d"
   integrity sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==
 
-typescript-format-imports@^0.1.7:
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/typescript-format-imports/-/typescript-format-imports-0.1.7.tgz#d1f7e9e0e1311c63df818d78d031867d0af17477"
-  integrity sha512-7Puh73on990Q0OrvTLblUqKjUj5p+vCpY8kb6o+eh/o05aj/8kRpVvN2qZBvULWSPfBoU80lWlJp2ZmyCwqPYA==
+typescript-format-imports@^0.1.8:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/typescript-format-imports/-/typescript-format-imports-0.1.8.tgz#9222b7025dd8f1f92e9c2aac0711f0a8df2e8ee3"
+  integrity sha512-ke1/i9mAJYObhsDkm49YBICWFT/l45TJ3MgxNbmbnrCN54UD7tfvgDNnG0QLDZbu4xipsz6uaaiYDd/MX8Hl2Q==
   dependencies:
     "@types/lodash-es" "^4.14.4"
     lodash-es "^4.17.4"

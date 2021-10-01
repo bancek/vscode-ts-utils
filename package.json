@@ -2,7 +2,7 @@
 	"name": "ts-utils",
 	"displayName": "TS utils",
 	"description": "TypeScript utils.",
-	"version": "0.1.7",
+	"version": "0.1.8",
 	"publisher": "lukazakrajsek",
 	"repository": {
 		"type": "git",
@@ -46,7 +46,7 @@
 	},
 	"dependencies": {
 		"read-pkg-up": "^7.0.0",
-		"typescript-format-imports": "^0.1.7"
+		"typescript-format-imports": "^0.1.8"
 	},
 	"devDependencies": {
 		"@types/glob": "^7.1.1",
